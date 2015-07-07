@@ -1,0 +1,28 @@
+{
+  "name": "superagent-rx",
+  "version": "0.1.0",
+  "description": "A plugin for superagent that allows getting results from it in form of Rx.Observable",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yamalight/superagent-rx.git"
+  },
+  "keywords": [
+    "rx",
+    "superagent"
+  ],
+  "author": "Tim Ermilov <yamalight@gmail.com> (http://codezen.net/)",
+  "license": "MIT",
+  "dependencies": {
+    "rx": "^2.5.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "nock": "^2.7.0",
+    "should": "^7.0.1",
+    "superagent": "^1.2.0"
+  }
+}
