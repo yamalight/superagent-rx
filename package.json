@@ -17,7 +17,7 @@
   "author": "Tim Ermilov <yamalight@gmail.com> (http://codezen.net/)",
   "license": "MIT",
   "dependencies": {
-    "rx": "^2.5.3"
+    "rx": "^3.0.0"
   },
   "devDependencies": {
     "mocha": "^2.2.5",
