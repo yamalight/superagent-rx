@@ -17,12 +17,15 @@
   "author": "Tim Ermilov <yamalight@gmail.com> (http://codezen.net/)",
   "license": "MIT",
   "dependencies": {
-    "rx": "^3.0.0"
+    "rx": "^4.0.0"
+  },
+  "peerDependencies": {
+    "superagent": "^1.4.0"
   },
   "devDependencies": {
     "mocha": "^2.2.5",
     "nock": "^2.7.0",
     "should": "^7.0.1",
-    "superagent": "^1.2.0"
+    "superagent": "^1.4.0"
   }
 }
