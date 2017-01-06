@@ -20,12 +20,12 @@
     "rx": "^4.0.0"
   },
   "peerDependencies": {
-    "superagent": "^1.4.0"
+    "superagent": "^1.4.0 || ^2.0.0 || ^3.0.0"
   },
   "devDependencies": {
     "mocha": "^2.2.5",
     "nock": "^2.7.0",
     "should": "^7.0.1",
-    "superagent": "^1.4.0"
+    "superagent": "^3.3.1"
   }
 }
