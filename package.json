@@ -1,6 +1,6 @@
 {
   "name": "superagent-rx",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A plugin for superagent that allows getting results from it in form of Rx.Observable",
   "main": "index.js",
   "scripts": {
