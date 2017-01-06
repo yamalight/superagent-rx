@@ -14,7 +14,10 @@ nock(requestUrl)
     .times(2)
     .reply(200, {
         test: 'OK',
-    });
+    })
+    .get('/error')
+    .once()
+    .reply(404);
 
 describe('Superagent-Rx', function() {
     const reqBody = {test: 1};
@@ -38,6 +41,17 @@ describe('Superagent-Rx', function() {
             .observe()
             .subscribe(function(res) {
                 should(res.body.test).equal('OK');
+                done();
+            });
+    });
+
+    it('should return Rx.Observable with error', function(done) {
+        superagent
+            .get(requestUrl + '/error')
+            .observe()
+            .subscribe(function() {},
+            function(err) {
+                should(err.status).equal(404);
                 done();
             });
     });

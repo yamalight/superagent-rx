@@ -17,7 +17,7 @@
   "author": "Tim Ermilov <yamalight@gmail.com> (http://codezen.net/)",
   "license": "MIT",
   "dependencies": {
-    "rx": "^4.0.0"
+    "rxjs": "^5.0.2"
   },
   "peerDependencies": {
     "superagent": "^1.4.0 || ^2.0.0 || ^3.0.0"
